@@ -14,8 +14,6 @@ tablets. It exposes a Lexis node's REST API over JMX, for `nodetool` from
 
 It works with Lexis unchanged.
 
-Docker image: `docker pull 0x6a6f6e6e79/lexis-jmx`
-
 ## Base and licence
 
 Forked from ScyllaDB's scylla-jmx at tag `scylla-6.2.0`. Licensed under the
