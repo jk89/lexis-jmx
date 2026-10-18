@@ -1,9 +1,16 @@
 # lexis-jmx
 
-The JMX proxy for [Lexis](https://github.com/jk89/lexis), a fork of ScyllaDB
+<table><tr>
+<td valign="middle" width="160"><img src="https://raw.githubusercontent.com/jk89/lexisdb/develop/lexis-icon.svg" width="160" height="196" alt="Lexis"></td>
+<td valign="middle">
+
+The JMX proxy for [Lexis](https://github.com/jk89/lexisdb), a fork of ScyllaDB
 that replaces the Murmur3 partitioner with byte-ordered partitioning, built on
 tablets. It exposes a Lexis node's REST API over JMX, for `nodetool` from
 [lexis-tools-java](https://github.com/jk89/lexis-tools-java).
+
+</td>
+</tr></table>
 
 It works with Lexis unchanged.
 
